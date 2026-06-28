@@ -1,0 +1,34 @@
+USE DATABASE "berka-michael";
+USE SCHEMA RAW;
+
+
+ALTER TABLE district
+RENAME COLUMN A2 TO district_name;
+ALTER TABLE district
+RENAME COLUMN A3 TO region;
+ALTER TABLE district
+RENAME COLUMN A4 TO inhabitants;
+ALTER TABLE district
+RENAME COLUMN A5 TO muni_lt_499;
+ALTER TABLE district
+RENAME COLUMN A6 TO muni_500_1999;
+ALTER TABLE district
+RENAME COLUMN A7 TO muni_2000_9999;
+ALTER TABLE district
+RENAME COLUMN A8 TO muni_gt_10000;
+ALTER TABLE district
+RENAME COLUMN A9 TO num_cities;
+ALTER TABLE district
+RENAME COLUMN A10 TO urban_ratio;
+ALTER TABLE district
+RENAME COLUMN A11 TO avg_salary;
+ALTER TABLE district
+RENAME COLUMN A12 TO unemployment_95;
+ALTER TABLE district
+RENAME COLUMN A13 TO unemployment_96;
+ALTER TABLE district
+RENAME COLUMN A14 TO entrepreneurs_per_1000;
+ALTER TABLE district
+RENAME COLUMN A15 TO crimes_95;
+ALTER TABLE district
+RENAME COLUMN A16 TO crimes_96;
